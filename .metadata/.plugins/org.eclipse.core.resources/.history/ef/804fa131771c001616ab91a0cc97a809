@@ -1,0 +1,12 @@
+package com.infosys.demo.experian;
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+
+@JsonIgnoreProperties(ignoreUnknown = true)
+public class Output {
+private  String userId;
+private  String id;
+private  String title;
+private  String body;
+
+
+}

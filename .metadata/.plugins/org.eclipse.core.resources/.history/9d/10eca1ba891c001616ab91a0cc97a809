@@ -1,0 +1,16 @@
+package com.infosys.demo.experian;
+
+public class Component {
+
+	private String urbanization;
+	private String primary_number;
+	private String street_name;
+	private String city_name;
+	private String default_city_name;
+	private String state_abbreviation;
+	private String zipcode;
+	private String plus4_code;
+	private String delivery_point;
+	private String delivery_point_check_digit;
+	
+}

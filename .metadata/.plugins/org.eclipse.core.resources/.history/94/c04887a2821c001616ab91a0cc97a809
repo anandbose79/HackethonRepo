@@ -1,0 +1,14 @@
+package com.infosys.demo.experian;
+
+public class SmartyResults {
+private String input_id;
+private String input_index;
+private String candidate_index	;
+private String addressee;
+private String delivery_line_1;
+private String delivery_line_2;
+private String last_line;
+private String delivery_point_barcode;
+private component[] components;
+
+}

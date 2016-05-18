@@ -1,0 +1,15 @@
+package com.infosys.demo.experian;
+
+public class Analysis {
+
+	private String dpv_match_code	;
+	private String dpv_footnotes;
+	private String dpv_cmra;
+	private String dpv_vacant;
+	private String active;
+	private String ews_match;
+	private String footnotes;
+	private String lacslink_code;
+	private String lacslink_indicator;
+	private String suitelink_match;
+}

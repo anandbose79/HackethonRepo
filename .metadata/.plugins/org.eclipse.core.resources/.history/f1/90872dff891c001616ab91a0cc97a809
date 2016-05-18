@@ -1,0 +1,19 @@
+package com.infosys.demo.experian;
+
+public class Analysis {
+
+	 private String dpv_match_code;
+	 private String active;
+	public String getDpv_match_code() {
+		return dpv_match_code;
+	}
+	public void setDpv_match_code(String dpv_match_code) {
+		this.dpv_match_code = dpv_match_code;
+	}
+	public String getActive() {
+		return active;
+	}
+	public void setActive(String active) {
+		this.active = active;
+	}
+}

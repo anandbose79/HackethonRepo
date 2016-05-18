@@ -1,0 +1,75 @@
+package com.infosys.demo.experian;
+
+public class Component {
+
+	private String urbanization;
+	private String primary_number;
+	private String street_name;
+	private String city_name;
+	private String default_city_name;
+	private String state_abbreviation;
+	private String zipcode;
+	private String plus4_code;
+	private String delivery_point;
+	private String delivery_point_check_digit;
+	public String getUrbanization() {
+		return urbanization;
+	}
+	public void setUrbanization(String urbanization) {
+		this.urbanization = urbanization;
+	}
+	public String getPrimary_number() {
+		return primary_number;
+	}
+	public void setPrimary_number(String primary_number) {
+		this.primary_number = primary_number;
+	}
+	public String getStreet_name() {
+		return street_name;
+	}
+	public void setStreet_name(String street_name) {
+		this.street_name = street_name;
+	}
+	public String getCity_name() {
+		return city_name;
+	}
+	public void setCity_name(String city_name) {
+		this.city_name = city_name;
+	}
+	public String getDefault_city_name() {
+		return default_city_name;
+	}
+	public void setDefault_city_name(String default_city_name) {
+		this.default_city_name = default_city_name;
+	}
+	public String getState_abbreviation() {
+		return state_abbreviation;
+	}
+	public void setState_abbreviation(String state_abbreviation) {
+		this.state_abbreviation = state_abbreviation;
+	}
+	public String getZipcode() {
+		return zipcode;
+	}
+	public void setZipcode(String zipcode) {
+		this.zipcode = zipcode;
+	}
+	public String getPlus4_code() {
+		return plus4_code;
+	}
+	public void setPlus4_code(String plus4_code) {
+		this.plus4_code = plus4_code;
+	}
+	public String getDelivery_point() {
+		return delivery_point;
+	}
+	public void setDelivery_point(String delivery_point) {
+		this.delivery_point = delivery_point;
+	}
+	public String getDelivery_point_check_digit() {
+		return delivery_point_check_digit;
+	}
+	public void setDelivery_point_check_digit(String delivery_point_check_digit) {
+		this.delivery_point_check_digit = delivery_point_check_digit;
+	}
+}

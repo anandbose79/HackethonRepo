@@ -1,0 +1,32 @@
+package com.infosys.demo.experian;
+
+public class Metadata {
+ private String record_type;
+ private String zip_type;
+ private String latitude;
+ private String longitude;
+public String getRecord_type() {
+	return record_type;
+}
+public void setRecord_type(String record_type) {
+	this.record_type = record_type;
+}
+public String getZip_type() {
+	return zip_type;
+}
+public void setZip_type(String zip_type) {
+	this.zip_type = zip_type;
+}
+public String getLatitude() {
+	return latitude;
+}
+public void setLatitude(String latitude) {
+	this.latitude = latitude;
+}
+public String getLongitude() {
+	return longitude;
+}
+public void setLongitude(String longitude) {
+	this.longitude = longitude;
+}
+}

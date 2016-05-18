@@ -1,0 +1,8 @@
+package com.infosys.demo.experian;
+
+public class Component {
+
+	private String urbanization;
+	private String primary_number;
+	
+}
